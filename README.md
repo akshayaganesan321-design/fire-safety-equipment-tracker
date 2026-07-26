@@ -109,11 +109,13 @@ Store data in database (MySQL / Firebase)
 Improve ML model accuracy
 Add alerts/notifications for overdue equipment
 🎥 Demo
-Screenshots included in repository
 Demo video shows:
 Search & filter
 Detail view
 Prediction
+#demo video
+watch the project demonstration here:
+https://drive.google.com/file/d/10yffHNrnNHP7UcUEx0KXXPTbLnOds1h-/view?usp=sharing
 🎤 Conclusion
 
 This project demonstrates a simple yet effective system to track fire safety equipment, automate inspection calculations, and assist in decision-making using machine learning.
