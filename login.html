@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Fire Safety System</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-container">
+  <h2>🔥 Fire Safety Login</h2>
+
+  <input type="text" id="username" placeholder="Enter Username">
+  <input type="password" id="password" placeholder="Enter Password">
+
+  <button onclick="login()">Login</button>
+
+  <p id="error"></p>
+</div>
+
+<script>
+function login() {
+  const user = document.getElementById("username").value;
+  const pass = document.getElementById("password").value;
+
+  // Simple validation
+  if (user === "admin" && pass === "1234") {
+    // Redirect to main page
+    window.location.href = "index.html";
+  } else {
+    document.getElementById("error").innerText =
+      "❌ Invalid username or password";
+  }
+}
+</script>
+
+</body>
+</html>

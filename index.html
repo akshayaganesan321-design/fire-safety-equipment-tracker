@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fire Safety Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🔥 Fire Safety Equipment Tracker</h1>
+<p class="subtitle">
+  Inspection interval: 6 months (auto-calculated)
+</p>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search Equipment ID">
+  
+  <select id="filter">
+    <option value="ALL">All</option>
+    <option value="OK">OK</option>
+    <option value="DUE">DUE</option>
+    <option value="OVERDUE">OVERDUE</option>
+  </select>
+</div>
+
+<p id="count"></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Type</th>
+      <th>Building</th>
+      <th>Next Due</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<div id="detail"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
